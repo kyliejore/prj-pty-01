@@ -15,7 +15,7 @@ a[type="button"] {
   -webkit-appearance: unset;
      -moz-appearance: unset;
           appearance: unset;
-  line-height: 50px !important;
+  line-height: 40px !important;
   padding: 0.6rem 1.3rem;
   background: transparent !important;
   border-radius: 0.77rem;
