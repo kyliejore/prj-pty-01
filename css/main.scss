@@ -758,7 +758,7 @@ img {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 768px) and (min-width:768px) {
     div.iphone-detail {
         h4 {
             text-align: center;
