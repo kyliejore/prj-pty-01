@@ -12,6 +12,7 @@ a {
 }
 
 a[type="button"] {
+  font-size: 5rem;
   -webkit-appearance: unset;
      -moz-appearance: unset;
           appearance: unset;
