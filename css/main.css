@@ -15,14 +15,14 @@ a[type="button"] {
   -webkit-appearance: unset;
      -moz-appearance: unset;
           appearance: unset;
-  line-height: 50px !important;
+  line-height: 60px !important;
   padding: 0.6rem 1.3rem;
   background: transparent !important;
-  border-radius: 1rem;
-  -webkit-border-radius: 1rem;
-  -moz-border-radius: 1rem;
-  -ms-border-radius: 1rem;
-  -o-border-radius: 1rem;
+  border-radius: 0.77rem;
+  -webkit-border-radius: 0.77rem;
+  -moz-border-radius: 0.77rem;
+  -ms-border-radius: 0.77rem;
+  -o-border-radius: 0.77rem;
 }
 
 .txt_r {
