@@ -108,7 +108,7 @@ body {
 
 span.the-number-mobile {
   font-size: 0.7rem;
-  color: #fff;
+  color: #fff !important;
   display: none;
   -webkit-appearance: none;
      -moz-appearance: none;
