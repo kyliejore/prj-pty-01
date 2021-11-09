@@ -752,7 +752,11 @@ img.logo {
     } 
 }
 
-
+@media (device-width:768px) and (device-height:1024px){
+    img.banner-iphone {
+        top: 30%, !important;;
+    }
+}
 
 /*==================(device-width: 768px =====================*/ 
 @media  screen and (max-width: 768px)  {
