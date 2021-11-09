@@ -490,20 +490,6 @@ body {
     height: 99px;
 }
 
-@media (max-width: 768px) {
-    .sticky-image .account {
-        // top: 310px;
-        // width: 74px;
-        // height: 74px;
-        right: 0px;
-    }
-    .sticky-image .chat {
-        // top: 388px;
-        // width: 74px;
-        // height: 74px;
-        right: 0px;
-    }
-}
 
 
 /*Detail*/
@@ -769,7 +755,101 @@ img.logo {
 
 
 /*==================(device-width: 768px =====================*/ 
-@media all and (max-width: 768px)  {
+@media  screen and (max-width: 768px)  {
+
+     
+    #sliders {
+        height: 100vh;
+        max-height: 100vh!important;
+        overflow: hidden;
+    }
+
+    blockquote.banner-lr-title {
+ 
+        position: relative !important;;
+        top: 50% !important;;
+        left: 50% !important;;
+        transform: translate(-50%,-50%);
+        -webkit-transform: translate(-50%,-50%);
+        -moz-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+        -o-transform: translate(-50%,-50%);
+}
+
+
+    #sliders {
+        .col-xs-12:first-child {
+            height: 50vh;
+        }
+    }
+    p.slogan {
+        left: 0%;
+        font-size: 30px;
+        top: 90%;
+    }
+ 
+  
+    blockquote.banner-lr-title {
+        width: 100%;
+        left: 0;
+        h2 {
+            width: 100%;
+            background-size: auto;
+            background-position: 50% -32px;
+        }
+    }
+    div.iphone-detail {
+        padding-top: 5rem;
+        // .col-4{
+        //     &:nth-child(2){
+        //         display: none;
+        //         appearance: none;
+        //     }
+        // }
+        &::after {
+            background: none;
+        }
+    }
+
+/*===============  ===============*/ 
+.sticky-image .account {
+    top: 7rem;
+}
+.sticky-image .chat {
+    top: 13.7rem;
+}
+.with-shadow {
+    &::before {
+        background: none !important;
+    }
+}
+/*===============  ===============*/ 
+
+    img.banner-iphone {
+       width: 100%;
+       height: auto!important;
+       position: relative!important;
+       top: -57%!important;
+       left: 50%!important;
+       transform: translate(-50%,20%);
+       -webkit-transform: translate(-50%,20%);
+       -moz-transform: translate(-50%,20%);
+       -ms-transform: translate(-50%,20%);
+       -o-transform: translate(-50%,20%);
+}
+/*===============  ===============*/ 
+    .sticky-image .account {
+        // top: 310px;
+        // width: 74px;
+        // height: 74px;
+        right: 0px;
+    }
+    .sticky-image .chat {
+        // top: 388px;
+        // width: 74px;
+        // height: 74px;
+        right: 0px;
+    }
 
     div.iphone-detail {
         h4 {
@@ -1787,23 +1867,7 @@ footer .menu li a:hover {
     }
 }
 
-@media screen and (max-width:768px) {
-    .sticky-image .account {
-        top: 7rem;
-    }
-    .sticky-image .chat {
-        top: 13.7rem;
-    }
-    .with-shadow {
-        &::before {
-            background: none !important;
-        }
-    }
-    img.banner-iphone {
-        /* width: 100%; */
-        top: -4%!important;
-    }
-}
+
 
 #rule .btn-activity,
 .btn-activity:active,
@@ -5380,61 +5444,6 @@ div.iphone-detail {
 
 /*======================*/
 
-
-/*=========== max width 768 ===========*/
-
-@media screen and (max-width:768px) {
-    blockquote.banner-lr-title {
-        top: 0px;
-    }
-    img.banner-iphone {
-        width: auto !important;
-    }
-    img.banner-iphone {
-        left: 0;
-    }
-    #sliders {
-        height: 100%;
-        max-height: 100vh;
-        overflow: hidden;
-    }
-    #sliders {
-        .col-xs-12:first-child {
-            height: 50vh;
-        }
-    }
-    p.slogan {
-        left: 0%;
-    }
-    // img.banner-iphone{
-    //     height: auto !important;
-    //     position: absolute;
-    // }
-    p.slogan {
-        font-size: 30px;
-    }
-    blockquote.banner-lr-title {
-        width: 100%;
-        left: 0;
-        h2 {
-            width: 100%;
-            background-size: auto;
-            background-position: 50% -32px;
-        }
-    }
-    div.iphone-detail {
-        padding-top: 5rem;
-        // .col-4{
-        //     &:nth-child(2){
-        //         display: none;
-        //         appearance: none;
-        //     }
-        // }
-        &::after {
-            background: none;
-        }
-    }
-}
 
 
 /*================ mobile ================ */
