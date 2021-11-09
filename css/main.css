@@ -741,7 +741,7 @@ img.logo {
 
 @media (device-width: 768px) and (device-height: 1024px) {
   img.banner-iphone {
-    top: 30%, !important;
+    top: 0%, !important;
   }
 }
 
