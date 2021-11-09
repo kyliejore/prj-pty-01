@@ -750,16 +750,19 @@ ul {
 
 
 /* Typography */
-
-img {
-    &.logo {
-        width: auto;
-        width: calc(100% - 14rem) !important;
-        padding: 1.79rem 0 1.68rem 0;
-    }
+/*================== min-width: 767px =====================*/
+@media (min-width: 767px) { 
+    img.logo {
+        padding: 0.79rem 0 0.68rem 0.9rem;
+        width: auto!important;
+    } 
 }
 
-@media all and (device-width: 768px) and  (min-width: 767px)  {
+
+
+/*==================(device-width: 768px =====================*/ 
+@media all and (device-width: 768px)  {
+
     div.iphone-detail {
         h4 {
             text-align: center;
