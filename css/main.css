@@ -749,7 +749,7 @@ img.logo {
 }
 
 /*==================(device-width: 768px =====================*/
-@media all and (device-width: 768px) {
+@media all and (max-width: 768px) {
   div.iphone-detail h4 {
     text-align: center;
   }
@@ -762,6 +762,7 @@ img.logo {
   img.logo {
     padding: 0.79rem 0 0.68rem 0.9rem;
     width: calc(100% - 14rem) !important;
+    max-width: 11rem;
   }
   #rule .with-shadow {
     padding-top: 1.1rem;
