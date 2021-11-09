@@ -4769,6 +4769,7 @@ img.banner-xmas-gifts {
 }
 
 blockquote.banner-lr-title {
+
     width: 796px;
     max-width: 796px;
     text-align: center;
@@ -5327,20 +5328,38 @@ div.iphone-detail {
 }
 
 
+
 /*=========== max width 1199px ===========*/
 
 @media screen and (max-width:1199px) {
-    img.banner-iphone {
+    #sliders{
+        overflow: hidden;
+        height: 100vh;
         width: 100%;
-        top: -58px;
-    }
+        display: inline-table;
+       }
+
+
+    img.banner-iphone {
+        left: 50%;
+        top: -40%!important;
+        transform: translate(-43%,20%);
+        -webkit-transform: translate(-43%,20%);
+        -moz-transform: translate(-43%,20%);
+        -ms-transform: translate(-43%,20%);
+        -o-transform: translate(-43%,20%);
+}
     p.slogan {
-        bottom: -24rem;
-        left: -9%;
+        top: 57%;
+    left: 50%;
+    transform: translate(-50%, 20%);
     }
     blockquote {
         &.banner-lr-title {
-            right: 50%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, 20%);
             h2 {
                 font-size: 3.5rem;
                 background-size: 80%;
@@ -5352,8 +5371,9 @@ div.iphone-detail {
         }
     }
     img.banner-xmas-gifts {
-        top: 82px;
+        top: 9%;
         left: 22%;
+        z-index: 99;
     }
 }
 
