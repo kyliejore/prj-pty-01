@@ -5162,7 +5162,7 @@ div.iphone-detail blockquote p small {
 }
 
 /*=========== max width 1199px ===========*/
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 1199px) and (min-width: 769px) {
   #sliders {
     overflow: hidden;
     height: 100vh;
