@@ -747,6 +747,13 @@ img.logo {
 
 /*==================(device-width: 768px =====================*/
 @media screen and (max-width: 768px) {
+  .banner-xmas-gifts {
+    display: none;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+  }
+  /*===========================*/
   #sliders {
     height: 100vh;
     max-height: 100vh !important;
@@ -761,6 +768,13 @@ img.logo {
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
+    width: 100%;
+    left: 0;
+  }
+  blockquote.banner-lr-title h2 {
+    width: 100%;
+    background-size: auto;
+    background-position: 50% -32px;
   }
   #sliders .col-xs-12:first-child {
     height: 50vh;
@@ -769,15 +783,6 @@ img.logo {
     left: 0%;
     font-size: 30px;
     top: 90%;
-  }
-  blockquote.banner-lr-title {
-    width: 100%;
-    left: 0;
-  }
-  blockquote.banner-lr-title h2 {
-    width: 100%;
-    background-size: auto;
-    background-position: 50% -32px;
   }
   div.iphone-detail {
     padding-top: 5rem;
@@ -4655,15 +4660,6 @@ img.banner-xmas-gifts {
   left: 35%;
 }
 
-@media screen and (max-width: 768px) {
-  .banner-xmas-gifts {
-    display: none;
-    -webkit-appearance: none;
-       -moz-appearance: none;
-            appearance: none;
-  }
-}
-
 blockquote.banner-lr-title {
   width: 796px;
   max-width: 796px;
@@ -4888,9 +4884,6 @@ div.iphone-detail blockquote p small {
     left: 20%;
     width: 100% !important;
     height: 100%;
-  }
-  blockquote.banner-lr-title {
-    right: 100%;
   }
   div.iphone-detail {
     padding-top: 10rem;
@@ -5235,7 +5228,7 @@ div.iphone-detail blockquote p small {
   }
   blockquote.banner-lr-title {
     position: absolute;
-    top: 50%;
+    top: 57%;
     left: 50%;
     -webkit-transform: translate(-50%, 20%);
             transform: translate(-50%, 20%);
