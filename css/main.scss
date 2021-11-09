@@ -752,11 +752,15 @@ img.logo {
     } 
 }
 
+/*================== only for iPad =====================*/
 @media (device-width:768px) and (device-height:1024px){
     img.banner-iphone {
-        top: 0%, !important;;
+        top: -30%, !important;;
     }
 }
+/*================== only for iPad =====================*/
+
+
 
 /*==================(device-width: 768px =====================*/ 
 @media  screen and (max-width: 768px)  {
