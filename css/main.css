@@ -771,13 +771,18 @@ img.logo {
     -moz-transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
-    width: 100%;
+    width: auto !important;
     left: 0;
   }
   blockquote.banner-lr-title h2 {
-    width: 100%;
+    width: 100% !important;
     background-size: auto;
     background-position: 50% -32px;
+    display: inline-table !important;
+    background: unset !important;
+  }
+  blockquote.banner-lr-title h3 {
+    font-size: 2.6rem;
   }
   #sliders .col-xs-12:first-child {
     height: 50vh;
@@ -786,6 +791,11 @@ img.logo {
     left: 0%;
     font-size: 30px;
     top: 90%;
+    line-height: 2rem !important;
+  }
+  p.slogan small {
+    margin-top: 0px !important;
+    line-height: 1.3rem;
   }
   div.iphone-detail {
     padding-top: 5rem;
@@ -4772,7 +4782,11 @@ div.iphone-detail blockquote p small {
   font-size: inherit;
 }
 
+/*==================(device-width: 450px =====================*/
 @media screen and (max-width: 450px) {
+  blockquote.banner-lr-title h2 {
+    width: auto !important;
+  }
   p.slogan {
     bottom: -88% !important;
   }
@@ -5231,7 +5245,7 @@ div.iphone-detail blockquote p small {
   }
   blockquote.banner-lr-title {
     position: absolute;
-    top: 57%;
+    top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, 20%);
             transform: translate(-50%, 20%);
