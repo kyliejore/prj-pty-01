@@ -815,10 +815,10 @@ img.logo {
   }
   /*===============  ===============*/
   img.banner-iphone {
-    width: 100%;
-    height: auto;
-    position: relative !important;
-    top: -30% !important;
+    width: 100% !important;
+    height: auto !important;
+    position: absolute !important;
+    top: -7% !important;
     left: 50% !important;
     transform: translate(-50%, 20%);
     -webkit-transform: translate(-50%, 20%);
