@@ -772,6 +772,9 @@ img.logo {
     -webkit-transform: translate(0%, 0%);
             transform: translate(0%, 0%);
   }
+  h3.choosenWe {
+    font-size: 1.5rem;
+  }
 }
 
 /*==================(device-width: 768px =====================*/
