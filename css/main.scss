@@ -798,6 +798,14 @@ img.logo {
     }
 }
 
+@media  screen and (max-width: 992px)  {
+    #sliders {
+        height: 100vh;
+        max-height: 100vh!important;
+        overflow: hidden;
+    }
+}
+
 
 /*==================(device-width: 768px =====================*/ 
 @media  screen and (max-width: 768px)  {
@@ -810,11 +818,7 @@ img.logo {
     /*===========================*/ 
 
      
-    #sliders {
-        height: 100vh;
-        max-height: 100vh!important;
-        overflow: hidden;
-    }
+  
 
     blockquote.banner-lr-title {
 
@@ -5102,10 +5106,52 @@ div.iphone-detail {
     max-height: 559px;
 }
 
+@media (min-width:769px)  and  (max-width:991px){
 
+    blockquote {
+        &.banner-lr-title {
+            position: relative;
+            top: -50%!important;
+        }
+    }
+
+}
 /*======== responsive #sliders ========*/
 
-@media screen and (max-width:991px) and (min-width:769px) {
+@media (max-width:991px){
+    div.iphone-detail {
+        padding-top: 5rem;
+        h4 {
+            text-align: center;
+            font-size: 2rem;
+
+            &.blue{
+                &::after{
+                    width: 100%;
+                    left: 0;
+                }
+            }
+
+            // purpl
+
+            &.purpl{
+                margin-top: 49px;
+                &::after{
+                    width: 100%;
+                    left: 0;
+                }
+            }
+        }
+          
+    }
+
+}
+
+@media screen and  (min-width:769px) and  (max-width:991px) {
+
+
+
+    // *************************
     // #sliders{
     //     max-height: 100vh;
     // }
@@ -5120,14 +5166,8 @@ div.iphone-detail {
         height: 100%;
     }
   
-    div.iphone-detail {
-        padding-top: 10rem;
-    }
-    div.iphone-detail {
-        h4 {
-            font-size: 1.3rem;
-        }
-    }
+
+
     .sticky-image .account {
         top: 5rem;
     }
@@ -5149,9 +5189,9 @@ div.iphone-detail {
             top: -15%;
         }
     }
-    main {
-        height: 68vh;
-    }
+    // main {
+    //     height: 68vh;
+    // }
     #rule .rules-detail.withCenter {
         margin: 10% auto 0;
     }
@@ -5455,7 +5495,7 @@ div.iphone-detail {
         overflow: hidden;
         height: 100vh;
         width: 100%;
-        display: inline-table;
+
        }
 
 
@@ -5475,8 +5515,8 @@ div.iphone-detail {
     }
     blockquote {
         &.banner-lr-title {
-            position: absolute;
-            top: 50%;
+            position: relative;
+            top: 0%;
             left: 50%;
             transform: translate(-50%, 20%);
             h2 {
