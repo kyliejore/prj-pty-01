@@ -4682,8 +4682,11 @@ nav#menu span.fa.fa-bars:hover {
 }
 
 #product .icon img.gold_png {
-    width: 21%;
+    width: 100%;
     margin-top: -1rem;
+
+    max-width: 42.8px;
+    height: 50px;
 }
 
 
@@ -4710,7 +4713,7 @@ nav#menu span.fa.fa-bars:hover {
         margin-bottom: 2.2rem;
     }
     #product .icon img.gold_png {
-        width: 15%;
+        width: 100%;
         margin-top: -1rem;
     }
     a[type="button"] {
