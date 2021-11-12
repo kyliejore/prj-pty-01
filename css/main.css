@@ -106,6 +106,93 @@ body {
   }
 }
 
+/*============= main iPhone =============*/
+/*==== re-type====*/
+.coldenSlogan {
+  padding-top: 3rem;
+  text-align: center;
+}
+
+.coldenSlogan h2, .coldenSlogan h3 {
+  color: #fff;
+}
+
+.coldenSlogan h2 {
+  font-size: 68px;
+  background: url("../img/h2-title-deco.png");
+  background-repeat: no-repeat;
+  background-size: initial;
+  background-position: 52% 108%;
+  /* display: inherit; */
+  height: 142px;
+  padding-top: 50px;
+}
+
+.coldenSlogan h3 {
+  font-size: 53px;
+}
+
+.coldenSlogan h3 small {
+  font-size: 26px;
+  display: block;
+  font-weight: 300 !important;
+}
+
+/*======== re: 450px ========*/
+@media screen and (max-width: 450px) {
+  .coldenSlogan {
+    padding-top: 0.0rem !important;
+  }
+  .coldenSlogan h2 {
+    background: none;
+    padding-top: 0px;
+    height: 80px;
+  }
+}
+
+div.main-iPhone {
+  background-position: 75% 27% !important;
+  padding-top: 20.8rem !important;
+  /*======================*/
+}
+
+div.main-iPhone .slogan-title {
+  font-size: 1.8rem !important;
+}
+
+div.main-iPhone small {
+  font-size: 1.3em !important;
+}
+
+div.main-iPhone {
+  text-align: center;
+  width: 100%;
+  height: 438px;
+  color: #fff;
+  background: url("../img/img-iphone10.png") no-repeat;
+  background-position: 75% 55%;
+  background-size: contain;
+  display: inline-table;
+  padding-top: 25rem;
+}
+
+div.main-iPhone .slogan-title {
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+div.main-iPhone small {
+  font-size: 15pt;
+  margin-top: 2rem;
+  display: block;
+}
+
+div.main-iPhone img.banner-iphone {
+  width: auto !important;
+}
+
+/*==========================*/
 span.the-number-mobile {
   font-size: 0.7rem;
   color: #fff !important;
@@ -777,11 +864,19 @@ img.logo {
   }
 }
 
+@media screen and (max-width: 769px) {
+  #sliders {
+    overflow: hidden;
+    width: 100%;
+    height: 100vh !important;
+  }
+}
+
 @media screen and (max-width: 992px) {
   #sliders {
     height: 100vh;
     max-height: 100vh !important;
-    overflow: hidden;
+    display: inline-table;
   }
 }
 
@@ -4689,8 +4784,8 @@ img.banner-xmas-gifts {
   max-width: 370px;
   height: 246px;
   position: relative;
-  top: 126px;
-  left: 35%;
+  top: 12%;
+  left: 31%;
 }
 
 blockquote.banner-lr-title {
@@ -5262,7 +5357,6 @@ div.iphone-detail blockquote p small {
 /*=========== max width 1199px ===========*/
 @media screen and (max-width: 1199px) and (min-width: 769px) {
   #sliders {
-    overflow: hidden;
     height: 100vh;
     width: 100%;
   }
