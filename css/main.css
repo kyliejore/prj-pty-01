@@ -5032,7 +5032,7 @@ div.iphone-detail blockquote p small {
   }
   div.iphone-detail h4.purpl::after {
     width: 100%;
-    left: 0;
+    left: 0 !important;
   }
 }
 
